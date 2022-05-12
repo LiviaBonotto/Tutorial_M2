@@ -25,8 +25,10 @@ Esta etapa tem por objetivo mostrar como aplicar Javascript para incluir scripts
 
 Antes de começar a execução das instruções desta etapa:
 1. Copie para o **seu diretório desta etapa** o conteúdo (todos os arquivos) do seu diretório da etapa anterior (`02_TUTORIAL/Semana 2`).
-2. No **seu diretório desta etapa** (`02_TUTORIAL/Semana 3`), exclua os seguintes arquivos do subdiretório `frontend`: `index1.html`, `index2.html`, `index3.html` e o subdiretório `css`.
-3. Copie os arquivos `script.js` e `style.css`  do subdiretório `frontend` **deste diretório** para o subdiretório `frontend` do **seu diretório desta etapa**.
+2. No **seu diretório desta etapa** (`02_TUTORIAL/Semana 3`), exclua os seguintes arquivos: 
+	- do subdiretório `frontend`: `index1.html`, `index2.html`, `index3.html` e o subdiretório `css`.
+	- do subdiretório `backend`: `app_21.js`.
+4. Copie os arquivos `script.js` e `style.css`  do subdiretório `frontend` **deste diretório** para o subdiretório `frontend` do **seu diretório desta etapa**.
 
 ## Instruções
 
@@ -39,6 +41,8 @@ Considerando arquivos presentes no **seu diretório desta etapa**:
 	por:
 	```html 
 	<title>ETAPA 3</title>
+	<link rel="stylesheet" href="style.css" />	
+	<script src="script.js"></script>
 	```
 	1.2. Substitua:
 	```html
@@ -47,7 +51,6 @@ Considerando arquivos presentes no **seu diretório desta etapa**:
 	``` 
 	por:
 	```html
-	<script src="script.js"></script>
 	<div id="main">
 	<h1>ETAPA 3</h1>
 	Introdução a Javascript
@@ -59,9 +62,9 @@ Considerando arquivos presentes no **seu diretório desta etapa**:
 	</div>
 	``` 
 
-2. Renomeie o arquivo `app_21.js` para `app_31.js`.
-3. No arquivo `app_31.js`, troque o número da porta (valor da variável `port` - linha 6) de `3021` para `3031`.
+2. Renomeie o arquivo `app_22.js` para `app_31.js`.
+3. No arquivo `app_31.js`, troque o número da porta (valor da variável `port` - linha 6) de `3022` para `3031`.
 4. Abra seu terminal, navegue até o subdiretório `backend` do seu diretório desta etapa e execute `node app_31.js`.
 5. Abra no navegador o endereço que consta no terminal (`localhost:3031`) e observe a linha informando o cálculo que foi realizado via script javascript e seu respectivo resultado. Observe ainda que clicando no botão, um novo cálculo é realizado e aparece também na página.
 
-**Caso algum ponto não tenha conseguido conforme esperado, aguarde a instrução da semana na qual todas as dúvidas serão solucionadas!**
+**Caso não tenha conseguido conseguido executar algum ponto conforme aqui indicado, tire suas dúvidas com o instrutor de programação :)**
